@@ -6,7 +6,7 @@ export default () => (
       className="sectionHeader"
       style={{
         fontWeight: "bold",
-        fontSize: "120px",
+        fontSize: "8.5em",
         marginLeft: "20%",
         width: "60%",
       }}
@@ -17,7 +17,7 @@ export default () => (
       className="sectionText"
       style={{
         fontWeight: "regular",
-        fontSize: "50px",
+        fontSize: "2.5em",
         marginLeft: "20%",
         width: "50%",
       }}
@@ -34,13 +34,13 @@ export default () => (
         marginTop: "2%",
       }}
     >
-      Image here
+      Team Image here - maintain light background
     </div>
     <div
       className="sectionHeader"
       style={{
         fontWeight: "bold",
-        fontSize: "80px",
+        fontSize: "5em",
         marginLeft: "20%",
         width: "60%",
         lineHeight: "100px",
@@ -53,7 +53,7 @@ export default () => (
       className="sectionText"
       style={{
         fontWeight: "regular",
-        fontSize: "30px",
+        fontSize: "2em",
         marginLeft: "20%",
         width: "50%",
         lineHeight: "50px",
@@ -64,8 +64,7 @@ export default () => (
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Pretium vulputate sapien nec sagittis aliquam malesuada
       bibendum. Aliquam sem fringilla ut morbi. Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-      dolore magna aliqua.
+      consectetur adipiscing elit, sed do eiusmod tempor.
     </div>
   </div>
 )

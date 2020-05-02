@@ -8,14 +8,14 @@ export default () => (
       padding: 0,
       background: "#920A0F",
       marginTop: "3%",
-      height: "100vh",
+      height: "100%",
     }}
   >
     <div
       className="sectionHeader"
       style={{
         fontWeight: "bold",
-        fontSize: "90px",
+        fontSize: "5em",
         marginLeft: "20%",
         width: "60%",
         color: "#F0F0F0",
@@ -34,7 +34,7 @@ export default () => (
         marginTop: "2%",
         marginRight: "20%",
         width: "60%",
-        height: "500px",
+        height: "100%",
       }}
     >
       <div className="Awards2020 defaultAwardHover">
@@ -50,7 +50,7 @@ export default () => (
         </div>
         <ul className="awardsList" style={{ marginTop: "-1%" }}>
           <li>HudsonAlpha Tech Challenge - 1st Place</li>
-          <li>Congressional App Challenge</li>
+          <li>Congressional App Challenge - National Finalists</li>
         </ul>
       </div>
       <div className="Awards2019 inactiveAwardHover">
@@ -83,7 +83,7 @@ export default () => (
           2018
         </div>
         <ul className="awardsList" style={{ marginTop: "-1%" }}>
-          <li>Congressional App Challenge</li>
+          <li>Congressional App Challenge - National Finalists</li>
         </ul>
       </div>
       <div className="Awards2017 inactiveAwardHover">

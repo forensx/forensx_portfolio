@@ -6,7 +6,6 @@ export default () => (
       width: "100%",
       margin: 0,
       padding: 0,
-      marginTop: "3%",
       height: "100vh",
     }}
   >
@@ -14,7 +13,7 @@ export default () => (
       className="sectionHeader"
       style={{
         fontWeight: "bold",
-        fontSize: "90px",
+        fontSize: "5em",
         marginLeft: "20%",
         width: "60%",
       }}
@@ -26,7 +25,7 @@ export default () => (
       className="projectsGrid"
       style={{
         marginLeft: "20%",
-        marginTop: "5%",
+        marginTop: "2%",
         marginRight: "20%",
         width: "60%",
         height: "500px",

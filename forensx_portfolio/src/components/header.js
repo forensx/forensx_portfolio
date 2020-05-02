@@ -1,4 +1,5 @@
 import React from "react"
+import ForensXLogo from "../imgs/forensx.png"
 
 export default () => (
   <div
@@ -11,9 +12,13 @@ export default () => (
     }}
   >
     <img
-      src="../imgs/forensx.png"
-      alt="FORENSX LOGO HERE"
-      style={{ marginTop: "2%", marginLeft: "5%" }}
+      src={ForensXLogo}
+      style={{
+        marginTop: "2%",
+        marginLeft: "5%",
+        width: "150px",
+        height: "150px",
+      }}
     />
   </div>
 )
