@@ -54,8 +54,14 @@ body {
   line-height: 37px;
 }
 
-.defaultAwardHover {
-  color: "purple";
+.inactiveAwardHover {
+  color: "#FFFFFF";
+  opacity: 0.31;
+  transition: 0.3s;
+}
+
+.inactiveAwardHover:hover {
+  opacity: 1;
 }
 
 .yearHeader {
