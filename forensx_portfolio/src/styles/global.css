@@ -53,11 +53,16 @@ body {
   font-weight: normal;
   font-size: 1.2em;
   line-height: 37px;
-  color: #f0f0f0;
 }
 
-.defaultAwardHover {
-  color: white;
+.inactiveAwardHover {
+  color: "#FFFFFF";
+  opacity: 0.31;
+  transition: 0.3s;
+}
+
+.inactiveAwardHover:hover {
+  opacity: 1;
 }
 
 .yearHeader {

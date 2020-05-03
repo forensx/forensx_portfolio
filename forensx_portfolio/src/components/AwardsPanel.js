@@ -37,7 +37,7 @@ export default () => (
         height: "100%",
       }}
     >
-      <div className="Awards2020 defaultAwardHover">
+      <div className="Awards2020 inactiveAwardHover">
         <hr
           style={{
             height: "1px",
