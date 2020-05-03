@@ -24,12 +24,11 @@ body {
 /* Awards Panel */
 .awardsParent {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 80px;
   grid-row-gap: 0px;
   margin-top: "2%";
-  color: white;
 }
 
 .Awards2020 {
@@ -39,10 +38,10 @@ body {
   grid-area: 1 / 2 / 2 / 3;
 }
 .Awards2018 {
-  grid-area: 1 / 3 / 2 / 4;
+  grid-area: 2 / 1 / 3 / 2;
 }
 .Awards2017 {
-  grid-area: 2 / 1 / 3 / 2;
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .awardsList {
@@ -53,11 +52,10 @@ body {
   font-weight: normal;
   font-size: 1.2em;
   line-height: 37px;
-  color: #f0f0f0;
 }
 
 .defaultAwardHover {
-  color: white;
+  color: "purple";
 }
 
 .yearHeader {
