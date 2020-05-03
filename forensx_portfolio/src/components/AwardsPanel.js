@@ -37,7 +37,7 @@ export default () => (
         height: "100%",
       }}
     >
-      <div className="Awards2020 inactiveAwardHover">
+      <div className="Awards2020 inactiveAwardHover defaultHover">
         <hr
           style={{
             height: "1px",
@@ -53,7 +53,7 @@ export default () => (
           <li>Congressional App Challenge - National Finalists</li>
         </ul>
       </div>
-      <div className="Awards2019 defaultAwardHover">
+      <div className="Awards2019 inactiveAwardHover">
         <hr
           style={{
             height: "1px",
@@ -71,7 +71,7 @@ export default () => (
           <li>BeEntrepreneurial Pitch Competition - 3rd Place</li>
         </ul>
       </div>
-      <div className="Awards2018 defaultAwardHover">
+      <div className="Awards2018 inactiveAwardHover">
         <hr
           style={{
             height: "1px",
@@ -86,7 +86,7 @@ export default () => (
           <li>Congressional App Challenge - National Finalists</li>
         </ul>
       </div>
-      <div className="Awards2017 defaultAwardHover">
+      <div className="Awards2017 inactiveAwardHover">
         <hr
           style={{
             height: "1px",
