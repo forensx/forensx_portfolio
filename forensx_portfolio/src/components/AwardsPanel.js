@@ -1,8 +1,7 @@
 import React, { useState } from "react"
 
 const AwardsPanel = () => {
-  const [hovered, setHovered] = useState(1) // 1 because 2020 selected by default
-  console.log("Hover: ", hovered)
+  const [hovered, setHovered] = useState(1)
   return (
     <div
       style={{
@@ -45,7 +44,9 @@ const AwardsPanel = () => {
           style={{ opacity: hovered === 1 ? "100%" : "50%" }}
           onMouseOver={() => {
             setHovered(1)
-            console.log("Just hovered on 2020")
+          }}
+          onFocus={() => {
+            setHovered(1)
           }}
         >
           <hr
@@ -68,7 +69,9 @@ const AwardsPanel = () => {
           style={{ opacity: hovered === 2 ? "100%" : "50%" }}
           onMouseOver={() => {
             setHovered(2)
-            console.log("Just hovered on 2019")
+          }}
+          onFocus={() => {
+            setHovered(2)
           }}
         >
           <hr
@@ -93,7 +96,9 @@ const AwardsPanel = () => {
           style={{ opacity: hovered === 3 ? "100%" : "50%" }}
           onMouseOver={() => {
             setHovered(3)
-            console.log("Just hovered on 2019")
+          }}
+          onFocus={() => {
+            setHovered(3)
           }}
         >
           <hr
@@ -115,7 +120,9 @@ const AwardsPanel = () => {
           style={{ opacity: hovered === 4 ? "100%" : "50%" }}
           onMouseOver={() => {
             setHovered(4)
-            console.log("Just hovered on 2019")
+          }}
+          onFocus={() => {
+            setHovered(4)
           }}
         >
           <hr

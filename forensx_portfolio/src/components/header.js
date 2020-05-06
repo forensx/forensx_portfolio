@@ -13,6 +13,7 @@ export default () => (
   >
     <img
       src={ForensXLogo}
+      alt=""
       style={{
         marginTop: "2%",
         marginLeft: "5%",
