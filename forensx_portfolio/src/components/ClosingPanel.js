@@ -23,7 +23,7 @@ export default () => (
       We’re always looking to learn something new.
     </div>
     <div
-      class="closingGrid"
+      className="closingGrid"
       style={{
         marginLeft: "20%",
         marginTop: "4%",
@@ -31,7 +31,7 @@ export default () => (
         width: "60%",
       }}
     >
-      <div class="projectEmail" style={{ fontSize: "40px" }}>
+      <div className="projectEmail" style={{ fontSize: "40px" }}>
         <div className="projectDirective">
           Got a project?<br></br>Let's talk.
         </div>
@@ -42,7 +42,7 @@ export default () => (
           </div>
         </div>
       </div>
-      <div class="projectFormEntry" style={{ fontSize: "40px" }}>
+      <div className="projectFormEntry" style={{ fontSize: "40px" }}>
         Or, let us know here.
       </div>
     </div>
