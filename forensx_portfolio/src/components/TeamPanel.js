@@ -25,7 +25,7 @@ export default () => (
     </div>
     {/* BEGIN TEAM GRID */}
     <div
-      class="teamGrid"
+      className="teamGrid"
       style={{
         marginLeft: "20%",
         marginTop: "1%",
@@ -34,32 +34,32 @@ export default () => (
         height: "60%",
       }}
     >
-      <div class="coleCard teamCard">
+      <div className ="coleCard teamCard">
         <div className="teamPicture" style={{ height: "90%" }}></div>
         <div className="teamMemberName">Cole McKee</div>
         <div className="teamMemberDescriptor">UI/UX Design</div>
       </div>
-      <div class="lonnieCard teamCard">
+      <div className="lonnieCard teamCard">
         <div className="teamPicture" style={{ height: "90%" }}></div>
         <div className="teamMemberName">Lonnie Webb</div>
         <div className="teamMemberDescriptor">Analytics and modeling</div>
       </div>
-      <div class="aniketCard teamCard">
+      <div className="aniketCard teamCard">
         <div className="teamPicture" style={{ height: "90%" }}></div>
         <div className="teamMemberName">Aniket Pant</div>
         <div className="teamMemberDescriptor">Frontend Engineer</div>
       </div>
-      <div class="virajCard teamCard">
+      <div className="virajCard teamCard">
         <div className="teamPicture" style={{ height: "90%" }}></div>
         <div className="teamMemberName">Viraj Kacker</div>
         <div className="teamMemberDescriptor">Pro Flexer</div>
       </div>
-      <div class="katsukiCard teamCard">
+      <div className="katsukiCard teamCard">
         <div className="teamPicture" style={{ height: "90%" }}></div>
         <div className="teamMemberName">Katsuki Chan</div>
         <div className="teamMemberDescriptor">Ex-Friend</div>
       </div>
-      <div class="matthiasCard teamCard">
+      <div className="matthiasCard teamCard">
         <div className="teamPicture" style={{ height: "90%" }}></div>
         <div className="teamMemberName">Matthias Rathbun</div>
         <div className="teamMemberDescriptor">Atom Installer</div>

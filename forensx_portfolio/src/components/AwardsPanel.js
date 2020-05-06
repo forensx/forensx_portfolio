@@ -1,7 +1,16 @@
-import React from "react"
+import React, { useState } from "react"
 
-export default () => (
-  <div
+// https://github.com/gatsbyjs/gatsby/issues/10415
+
+// 1st, you will use state 1-4 (integer) to decide which panel is hovered
+// 2nd, you will check each div if the state matches the respective div, and change the opacity given this value
+// 3rd, remove the opacity class from the respective CSS
+
+const AwardsPanel = () => {
+  const [hovered, setHovered] = useState(1); // 1 because 2020 selected by default
+  console.log("Hover: ", hovered)
+  return (
+<div
     style={{
       width: "100%",
       margin: 0,
@@ -37,7 +46,12 @@ export default () => (
         height: "100%",
       }}
     >
-      <div className="Awards2020 inactiveAwardHover defaultHover">
+      <div className="Awards2020 inactiveAwardHover"
+        style={ { opacity: (hovered === 1) ? '100%' : '50%' } }
+        onMouseOver = {() => {
+          setHovered(1);
+          console.log("Just hovered on 2020")
+        }}  >
         <hr
           style={{
             height: "1px",
@@ -53,7 +67,12 @@ export default () => (
           <li>Congressional App Challenge - National Finalists</li>
         </ul>
       </div>
-      <div className="Awards2019 inactiveAwardHover">
+      <div className="Awards2019 inactiveAwardHover" 
+              style={ { opacity: (hovered === 2) ? '100%' : '50%' } }
+              onMouseOver = {() => {
+                setHovered(2);
+                console.log("Just hovered on 2019")
+              }} >
         <hr
           style={{
             height: "1px",
@@ -71,7 +90,12 @@ export default () => (
           <li>BeEntrepreneurial Pitch Competition - 3rd Place</li>
         </ul>
       </div>
-      <div className="Awards2018 inactiveAwardHover">
+      <div className="Awards2018 inactiveAwardHover" 
+              style={ { opacity: (hovered === 3) ? '100%' : '50%' } }
+              onMouseOver = {() => {
+                setHovered(3);
+                console.log("Just hovered on 2019")
+              }} >
         <hr
           style={{
             height: "1px",
@@ -86,7 +110,12 @@ export default () => (
           <li>Congressional App Challenge - National Finalists</li>
         </ul>
       </div>
-      <div className="Awards2017 inactiveAwardHover">
+      <div className="Awards2017 inactiveAwardHover" 
+            style={ { opacity: (hovered === 4) ? '100%' : '50%' } }
+            onMouseOver = {() => {
+              setHovered(4);
+              console.log("Just hovered on 2019")
+            }} >
         <hr
           style={{
             height: "1px",
@@ -105,4 +134,7 @@ export default () => (
       </div>
     </div>
   </div>
-)
+  )
+}
+
+export default AwardsPanel;
