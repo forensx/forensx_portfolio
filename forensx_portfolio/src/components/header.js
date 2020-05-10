@@ -1,5 +1,5 @@
 import React from "react"
-import ForensXLogo from "../imgs/forensx.png"
+import ForensXLogo from "../images/forensx.png"
 
 export default () => (
   <div
