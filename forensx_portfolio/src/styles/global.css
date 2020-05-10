@@ -86,9 +86,55 @@ body {
   grid-row-gap: 20px;
 }
 
+.container {
+  position: relative;
+}
+
+.projectImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlayText {
+  color: white;
+  font-size: 1.8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projectLink {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .projectFRI {
   grid-area: 1 / 1 / 2 / 2;
 }
+
 .projectGViz {
   grid-area: 1 / 2 / 2 / 3;
 }
@@ -104,7 +150,6 @@ body {
 
 .projectCard {
   width: 90%;
-  border-style: solid;
 }
 
 /* BEGIN TEAM GRID */
